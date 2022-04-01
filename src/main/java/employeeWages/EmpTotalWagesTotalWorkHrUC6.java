@@ -1,4 +1,4 @@
-package employeeWages;
+				package employeeWages;		
 
 public class EmpTotalWagesTotalWorkHrUC6 {
 		
@@ -27,7 +27,7 @@ public class EmpTotalWagesTotalWorkHrUC6 {
 			default:
 				EH=0;
 			}
-			EmpTotalHours +=EH ;
+			EmpTotalHours =EmpTotalHours+EH ;
 			System.out.println(TotalWorkingDays +":" + EH);
 				}
 				int TotalEmpWage=EmpTotalHours*ERPH;

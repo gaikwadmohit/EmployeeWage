@@ -13,7 +13,7 @@ public class WagesForMonthUC5 {
 				int EW=0;
 				int totalEW=0;
 				
-				for(int day=0;day<WorkingDays;day++)
+				for(int day=0;day<WorkingDays;day++) //day 0
 				{
 					int empcheck=(int) Math.floor(Math.random()*10)%3;
 				
@@ -32,7 +32,8 @@ public class WagesForMonthUC5 {
 			System.out.println("EMP Wage "+ EW);
 							
 		}
-				System.out.println("Total Emp Wage "+ totalEW);
+				totalEW=EW;
+				System.out.println("Total Emp Wage "+ totalEW*WorkingDays);
 				
 
 	}
